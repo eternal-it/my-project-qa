@@ -3,7 +3,6 @@ from config.settings import BASE_URL
 from utils.helpers import assert_is_positive_int
 from utils.logger import logger
 
-print("...Логер инициализирован")
 @pytest.mark.parametrize("user_id,title",[
     (1, "Post of the user 1"),
     (2, "Post of the user 2"),

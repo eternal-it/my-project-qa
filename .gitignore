@@ -5,4 +5,4 @@ __pycache__/
 .env
 logs/
 .pytest_cach/
-.DC_Store
+.DS_Store

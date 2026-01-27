@@ -1,6 +1,8 @@
 # QA Automation Learning Project
 
-Проект для изучения автоматизированного тестирования API и UI
+[![Tests](https://github.com/ваше_имя/qa-automation-learning/actions/workflows/tests.yml/badge.svg)](https://github.com/ваше_имя/qa-automation-learning/actions)
+
+## Проект для изучения автоматизированного тестирования API и UI.
 
 ## Стек технологий
 - Python 3.9+
@@ -13,7 +15,7 @@
 ## Как запустить
 1. Установи зависимости:
 ```bash
-   pip install -r requirements.txt
+   pip3 install -r requirements.txt
 ```
 
 2. Установи браузеры Playwright:

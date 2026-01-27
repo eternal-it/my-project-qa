@@ -6,3 +6,6 @@ __pycache__/
 logs/
 .pytest_cach/
 .DS_Store
+logs/
+screenshots/
+allure-results/

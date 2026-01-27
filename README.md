@@ -12,7 +12,7 @@
 - Allure Framework
 - GitHub Actions
 
-## Как запустить
+## Как запустить`
 1. Установи зависимости:
 ```bash
    pip3 install -r requirements.txt

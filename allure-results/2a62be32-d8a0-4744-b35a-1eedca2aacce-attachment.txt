@@ -1,0 +1,4 @@
+[32mINFO    [0m utils.logger:test_performance.py:13 Начинаем тест для user_id=2, title='Post of the user 2'
+[32mINFO    [0m utils.logger:test_performance.py:22 Получен статус: 201
+[32mINFO    [0m utils.logger:test_performance.py:28 Проверка 101 выполнена
+[32mINFO    [0m utils.logger:test_performance.py:33 Все проверки выполнены

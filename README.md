@@ -1,6 +1,6 @@
 # QA Automation Learning Project
 
-[![Tests](https://github.com/ваше_имя/qa-automation-learning/actions/workflows/tests.yml/badge.svg)](https://github.com/ваше_имя/qa-automation-learning/actions)
+[![Tests](https://github.com/eternal-it/my-project-qa/actions/workflows/tests.yml/badge.svg)](https://github.com/eternal-it/my-project-qa/actions)
 
 ## Проект для изучения автоматизированного тестирования API и UI.
 

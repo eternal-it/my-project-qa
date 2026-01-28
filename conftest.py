@@ -27,7 +27,7 @@ def page():
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(
             viewport={"widht": 1920, "height": 1080},
-            local="en-US"
+            locale="en-US"
         )
         page = context.new_page()
         page.set_default_timeout(15000)

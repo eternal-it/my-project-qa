@@ -4,7 +4,7 @@ __pycache__/
 *.pyc
 .env
 logs/
-.pytest_cach/
+.pytest_cache/
 .DS_Store
 logs/
 screenshots/

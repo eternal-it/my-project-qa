@@ -25,7 +25,12 @@ def page():
     with sync_playwright() as p:
         # Запускаем Chromium в headless-режиме
         browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
+        context = browser.new_context(
+            viewport={"widht": 1920, "height": 1080},
+            local="en-US"
+        )
+        page = context.new_page()
+        page.set_default_timeout(15000)
         yield page
         browser.close()
 

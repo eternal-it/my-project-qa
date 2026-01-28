@@ -26,7 +26,7 @@ def page():
         # Запускаем Chromium в headless-режиме
         browser = p.chromium.launch(headless=True)
         context = browser.new_context(
-            viewport={"widht": 1920, "height": 1080},
+            viewport={"width": 1920, "height": 1080},
             locale="en-US"
         )
         page = context.new_page()
